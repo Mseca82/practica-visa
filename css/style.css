@@ -88,12 +88,10 @@ body{
 }
 
 .sleap{
-
 	position: absolute;
 	text-align: center;
 	color: white;
 	font-family: Michroma;
-	width: 35%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -118,6 +116,16 @@ a{
 	margin: 60px 90px 0px 0px;
 	height: 60px;
 
+}
+
+ul{
+	list-style: none;
+	color: white;
+	font-size: bold;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
 }
 
 li{
@@ -201,11 +209,7 @@ height: 60px;
 }
 .steps{
 	display: flex;
-	justify-content: center;
-	align-items: center; 
-	justify-content: space-evenly;
 }
-
 .step1, .step2, .step3{
 
 	font-family: Poppins; 
@@ -340,6 +344,7 @@ height: 60px;
 	padding: 0px;
 }
 
+
 .boton{
 	position: absolute;
 	top: 70%;
@@ -398,8 +403,10 @@ height: 60px;
 	margin: 500px 0px 0px 200px;
 	font-size: 40px;
 }
-
 .steps{
+	justify-content: center;
+	align-items: center; 
+	justify-content: space-evenly;
 	margin-bottom: 50px;
 }
 
@@ -490,13 +497,6 @@ h5{
 }
 
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 60px 90px 0px 0px;
 	height: 60px;
 
@@ -510,8 +510,6 @@ li{
 	background: url(../rsc/img/orbita.png) no-repeat center center;
 	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
 
 li:hover{
@@ -520,204 +518,75 @@ height: 60px;
 
 }
 
-a{
-	text-decoration: none;
-	color: white;
-}
-
 .titulo{
 
-	position: absolute;
 	top: 40%;
-	left: 50%; 
 	font-size: 54px;
 	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 20px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
-.sleap{
 
-	position: absolute;
-	top: 55%;
+.sleap{
 	left: 50%; 
-	transform: translate(-50%, -50%);
 	font-size: 40px;
 	width: 35%;
 }
 
 .boton{
-
-	position: absolute;
 	top: 70%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .boton2{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
   	left: 50%;
   	transform: translateX(-50%); 
-  	transition: 0.5s;
 }
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
 
 .botonfly{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
   	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 140px 0px 0px;
-
 }
 
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-}
-
-.cita{
-	width: 50%;
-	font-size: 40px;
-	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
-	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
-}
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 24px;
-
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
-}
-.tierra{
-
-	width: 300px;
-	margin-top: 200px;
-	margin-right: 100px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
 
 .cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
 	margin-bottom: 60px;
-
 }
 .discover1{
-	
 	width: 550px;
 	color: white;
 	text-align: center;
 	margin: 200px 0px 0px 0px;
 	font-family: Michroma;
 	font-size: 40px;
-
 }
 
 .discover{
-	
 	width: 550px;
 	color: white;
 	text-align: left;
 	margin: 500px 0px 0px 200px;
 	font-family: Michroma;
 	font-size: 40px;
-
 }
 
 .steps{
-
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
 	margin-bottom: 50px;
 }
-.step1, .step2, .step3{
 
-	margin: 40px 0px 90px 0px; 
-	width: 255px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-}
+
 h5{
 
 	font-size: 24px;
@@ -725,15 +594,6 @@ h5{
 	margin: 0px;
 	padding: 0px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
 
 .novaytexto{
 
@@ -759,28 +619,12 @@ h5{
 	margin-bottom: 200px;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
 .voyager{
 
 margin-left: 1000px;
 width: 30%;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
 	color: white;
@@ -852,14 +696,6 @@ width: 30%;
     background-position-x: 100px;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .footer{
 	width: 100%;
 
@@ -868,12 +704,6 @@ width: 30%;
 
 /* TABLET */
 @media screen and (max-width: 1576px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
-
-
 
 .navbar{
 	display: none;
@@ -926,14 +756,6 @@ a{
 	color: white;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
 .lunita{
 
 	width: 100%;
@@ -978,14 +800,6 @@ a{
 	padding: 0px;
 
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
 .boton{
 
 	position: absolute;
@@ -1057,14 +871,6 @@ a{
 	box-shadow: 0px 0px 6px 2px #CBBEB5; 
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
 .cita1{
 
 	display: flex;
@@ -1093,16 +899,6 @@ a{
 
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
 .tierraytitulo{
 
 	display: flex;
@@ -1115,16 +911,6 @@ a{
 	margin-top: 200px;
 	margin-right: 100px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
 .cajadiscover{
 	width: 100%;
 	display: flex;
@@ -1155,9 +941,6 @@ a{
 }
 
 .steps{
-
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
@@ -1179,15 +962,6 @@ h5{
 	margin: 0px;
 	padding: 0px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
 
 .novaytexto{
 
@@ -1213,28 +987,11 @@ h5{
 	margin-bottom: 200px;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
 .voyager{
 
 margin-left: 1000px;
 width: 30%;
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
 	color: white;
@@ -1306,25 +1063,9 @@ width: 30%;
     background-position-x: 100px;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
-}
 }
 /* TABLET2 */
 @media screen and (max-width: 1457px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
 
 .navbar{
 	display: none;
@@ -1377,14 +1118,6 @@ a{
 	color: white;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
 .lunita{
 
 	width: 100%;
@@ -1430,13 +1163,6 @@ a{
 	padding: 0px;
 
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
 
 .boton{
 
@@ -1509,14 +1235,6 @@ a{
 	box-shadow: 0px 0px 6px 2px #CBBEB5; 
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
 .cita1{
 
 	display: flex;
@@ -1545,16 +1263,6 @@ a{
 
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
 .tierraytitulo{
 
 	display: flex;
@@ -1567,16 +1275,6 @@ a{
 	margin-top: 200px;
 	margin-right: 100px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
 .cajadiscover{
 	width: 100%;
 	display: flex;
@@ -1607,9 +1305,6 @@ a{
 }
 
 .steps{
-
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
@@ -1624,196 +1319,56 @@ a{
 	color: white;
 	line-height: 24px;
 }
-h5{
-
-	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-
-.novaytexto{
-
-	position: relative;
-
-}
-.supernova{
-
-	width: 750px;
-	position: absolute;
-	left: -150px;
-	top: -200px;
-
-}
 
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 400px;
 	margin-bottom: 200px;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
 .voyager{
-
 margin-left: 900px;
 width: 30%;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 30px;
 	margin-left: 160px;
 	letter-spacing: 5px;
 }
 
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 160px;
 	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
 
 .discovertext{
-
-	color: white;
 	width: 500px;
 	margin: 60px 0px 0px 170px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
-
-.espaciotexto{
-
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
-	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
-	margin-top: 5px;
-	border-bottom: solid 1px;
-}
-
 .etiquetilla{
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 16px;
-	border: none;
 	margin-top: 30px;
-
 }
 
-.nodesign{
-    width: 100%;
-    padding: 5px;
-    line-height: 1;
-    border: 0;
-    height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
-    background-position-x: 100px;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
-}
 }
 
 /*LAPTOP1440*/
 
 @media screen and (max-width: 1440px){
 
-a{
-
-}
-
-a:hover{
-	text-decoration: none;
-	color: white;
-}
 .sleap{
-
-	position: absolute;
 	top: 57%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 26px;
 	width: 80%;
-	margin: 0px;
-	padding: 0px;
-
 }
 .titulo{
-
-	position: absolute;
 	top: 49%;
-	left: 50%; 
 	font-size: 55px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 
 }
@@ -1822,447 +1377,143 @@ a:hover{
 @media screen and (max-width: 1066px){
 
 .navbar{
-	display: none !important;
+	display: none;
 }
 
+.sleap{
+	font-size: 25px !important;
+}
 
 .sombra{
-
 	height: 130px;
-
 }
 
 .logotipo{
-
 	width: 100px;
 	margin: 60px 0px 0px 90px;
 }
 
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 60px 90px 0px 0px;
 	height: 60px;
-
 }
-
 
 li{
-
 	margin-left: 50px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
 
-li:hover{
-
-height: 60px;
-}
-
-a{
-	text-decoration: none;
-	color: white;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
-.lunita{
-
-	width: 100%;
-	z-index: 0;
-	position: absolute;
-	top: 120px;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-}
-
-
-
-.titulo{
-
-	position: absolute;
-	top: 40%;
-	left: 50%; 
-	font-size: 54px;
-	transform: translate(-50%, -50%);
-	color: white;
-	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	width: 80%;
-
-}
 .sleap{
-
-	position: absolute;
-	top: 55%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 40px;
 	width: 38%;
-	margin: 0px;
-	padding: 0px;
-
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
 .boton{
-
-	position: absolute;
 	top: 67%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
-}
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
 }
 
 .boton2{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
-  	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
 }
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
 
 .botonfly{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 140px 0px 0px;
-
 }
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
 
 .cita1{
-
 	display: flex;
 	justify-content: center;
 	position: relative;
 }
 
-.cita{
-	width: 60%;
-	font-size: 32px;
-	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
-	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
-}
-.joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
-	top: 100%;
-	left: 62%;
-	font-size: 24px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
-}
 .tierra{
-
 	width: 300px;
 	margin-top: 200px;
 	margin-right: 100px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
 .cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
 	margin-bottom: 60px;
-
 }
 .discover1{
-	
 	width: 550px;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-
 .discover{
-	
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 500px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-
 .steps{
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
 	margin-bottom: 50px;
 }
 .step1, .step2, .step3{
-
 	margin: 40px 0px 90px 0px; 
 	width: 255px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 }
-h5{
-
-	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-
 .novaytexto{
-
 	position: relative;
-
 }
 .supernova{
-
 	width: 150px;
-	position: absolute;
 	left: -150px;
 	top: -200px;
-
 }
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
 
 .voyager{
-
-margin-left: 800px;
-width: 30%;
+	margin-left: 800px;
+	width: 30%;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 30px;
 	margin-left: 60px;
 	letter-spacing: 5px;
 }
 
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 60px;
 	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
-
 .discovertext{
-
-	color: white;
 	width: 500px;
 	margin: 60px 0px 0px 170px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
-
 .espaciotexto{
-
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
 	margin-top: 5px;
 	border-bottom: solid 1px;
 }
-
 .etiquetilla{
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 16px;
-	border: none;
 	margin-top: 30px;
-
 }
-
 .nodesign{
     width: 100%;
     padding: 5px;
     line-height: 1;
     border: 0;
     height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
     -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
     background-position-x: 100px;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
 }
 
 }
@@ -2344,260 +1595,91 @@ a{
 	animation-timing-function: ease-out;
 }
 
-
-
 .titulo{
-
-	position: absolute;
 	top: 40%;
 	left: 50%; 
-	font-size: 54px;
+	font-size: 44px !important;
 	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .sleap{
-
-	position: absolute;
-	top: 55%;
+	top: 50%;
 	left: 50%; 
 	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	width: 38%;
-	margin: 0px;
-	padding: 0px;
-
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
 .boton{
-
-	position: absolute;
-	top: 67%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
+	top: 63%;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
 }
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
-}
-
 .boton2{
-
 	border: solid 1px;
-  	color: white;
   	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
   	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
 }
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-
 .botonfly{
-
-	border: solid 1px;
 	width: 190px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 3px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 300px 0px 0px;
-
 }
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-}
-
 .cita{
 	width: 60%;
 	font-size: 32px;
 	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
 	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
 }
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 24px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
 }
 .tierra{
-
 	width: 300px;
 	margin-top: 200px;
 	margin-right: 100px;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
-.cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 60px;
-
-}
 .discover1{
-	
 	width: 550px;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-
 .discover{
-	
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 500px;
 	margin: 60px 0px 0px 0px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
-
 .steps{
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
 	margin-bottom: 50px;
 }
 .step1, .step2, .step3{
-
 	margin: 40px 0px 90px 0px; 
 	width: 255px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 }
 h5{
-
 	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
 
 .novaytexto{
 
@@ -2605,30 +1687,10 @@ h5{
 
 }
 .supernova{
-
 	width: 500px;
-	position: absolute;
 	left: -60px;
 	top: -20%;
-
 }
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
 
 .voyager{
 
@@ -2636,568 +1698,45 @@ margin-left: 700px;
 width: 30%;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 30px;
 	margin-left: 60px;
 	letter-spacing: 5px;
 }
-
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 60px;
 	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
 
-
 .espaciotexto{
-
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
 	margin-top: 5px;
-	border-bottom: solid 1px;
 }
 
 .etiquetilla{
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 16px;
-	border: none;
 	margin-top: 30px;
-
 }
-
 .nodesign{
     width: 100%;
     padding: 5px;
     line-height: 1;
-    border: 0;
     height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
     background-position-x: 100px;
 }
 
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
 }
 
-
-}
-
-/* TABLET4.2 */
-@media screen and (max-width: 1098px){
-
-.joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
-	top: 100%;
-	left: 62%;
-	font-size: 24px;
-
-}
-.voyager{
-
-margin-left: 700px;
-width: 30%;
-}
-
-}
-/* TABLET5 */
-@media screen and (max-width: 1056px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
-.navbar{
-	display: none;
-}
-
-.sombra{
-
-	height: 130px;
-}
-
-.logotipo{
-
-	width: 100px;
-	margin: 60px 0px 0px 90px;
-}
-
-ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
-	margin: 60px 60px 0px 0px;
-	height: 60px;
-
-}
-
-
-li{
-
-	margin-left: 50px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
-	height: 0px;
-	display: flex;
-	align-items: center;
-}
-
-li:hover{
-
-height: 60px;
-}
-
-a{
-	text-decoration: none;
-	color: white;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
-.lunita{
-
-	width: 100%;
-	z-index: 0;
-	position: absolute;
-	top: 120px;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-}
-
-
-
-.titulo{
-
-	position: absolute;
-	top: 40%;
-	left: 50%; 
-	font-size: 54px;
-	transform: translate(-50%, -50%);
-	color: white;
-	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	width: 80%;
-
-}
-.sleap{
-
-	position: absolute;
-	top: 55%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
-	font-size: 40px;
-	width: 38%;
-	margin: 0px;
-	padding: 0px;
-
-}
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
-.boton{
-
-	position: absolute;
-	top: 67%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 12px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
-  	padding: 15px 30px 15px 30px;
-}
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
-}
-
-.boton2{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 8px;
-  	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
-  	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
-  	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
-}
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-
-.botonfly{
-
-	border: solid 1px;
-	width: 190px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 3px;
-  	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
-  	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
-  	margin: 60px 300px 0px 0px;
-
-}
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-}
-
-.cita{
-	width: 60%;
-	font-size: 32px;
-	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
-	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
-}
-.joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
-	top: 100%;
-	left: 62%;
-	font-size: 24px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
-}
-.tierra{
-
-	width: 300px;
-	margin-top: 200px;
-	margin-right: 100px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
-.cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 60px;
-
-}
-.discover1{
-	
-	width: 550px;
-	color: white;
-	text-align: center;
-	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
-	font-size: 40px;
-
-}
-
-.discover{
-	
-	width: 550px;
-	color: white;
-	text-align: left;
-	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
-	font-size: 40px;
-
-}
-.discovertext{
-
-	color: white;
-	width: 500px;
-	margin: 60px 0px 0px 0px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-
-}
-
-.steps{
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	justify-content: space-evenly;
-	
-}
-.step1, .step2, .step3{
-
-	margin: 40px 0px 90px 0px; 
-	width: 255px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-}
-h5{
-
-	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-
-.novaytexto{
-
-	position: relative;
-
-}
-.supernova{
-
-	width: 500px;
-	position: absolute;
-	left: -60px;
-	top: -20%;
-
-}
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
-.voyager{
-
-margin-left: 700px;
-width: 30%;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.formtitle{
-	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
-	font-size: 30px;
-	margin-left: 60px;
-	letter-spacing: 5px;
-}
-
-.formulario{
-
-	display: flex;
-	margin: 0px 0px 0px 60px;
-	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
-}
-
-
-.espaciotexto{
-
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
-	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
-	margin-top: 5px;
-	border-bottom: solid 1px;
-}
-
-.etiquetilla{
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
-	font-size: 16px;
-	border: none;
-	margin-top: 30px;
-
-}
-
-.nodesign{
-    width: 100%;
-    padding: 5px;
-    line-height: 1;
-    border: 0;
-    height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
-    background-position-x: 100px;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
-}
 /* TABLET6 */
 @media screen and (max-width: 1024px){
 
-/*=====================================================
-  NAV
-  =====================================================*/
 .navbar{
 	display: none;
 }
 .sombra{
-
 	height: 130px;
 }
 
@@ -3208,224 +1747,60 @@ width: 30%;
 }
 
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 60px 60px 0px 0px;
 	height: 60px;
-
 }
-
-
 li{
-
 	margin-left: 30px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
-
-li:hover{
-
-height: 60px;
-}
-
-a{
-	text-decoration: none;
-	color: white;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
 .lunita{
-
 	width: 100%;
 	z-index: 0;
-	position: absolute;
 	top: 120px;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
 }
-
-
-
 .titulo{
-
-	position: absolute;
 	top: 40%;
-	left: 50%; 
 	font-size: 54px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .sleap{
-
-	position: absolute;
 	top: 55%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 40px;
 	width: 38%;
-	margin: 0px;
-	padding: 0px;
-
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
 .boton{
-
-	position: absolute;
 	top: 67%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
 }
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
-}
-
 .boton2{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
   	left: 50%;
   	transform: translateX(-50%); 
-  	transition: 0.5s;
 }
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-
 .botonfly{
-
-	border: solid 1px;
 	width: 190px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 3px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 300px 0px 0px;
-
 }
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-}
-
 .cita{
 	width: 60%;
 	font-size: 32px;
 	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
 	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
 }
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 24px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
 }
 .tierra{
 
@@ -3434,1218 +1809,275 @@ a{
 	margin-right: 100px;
 }
 
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
 .cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
 	margin-bottom: 60px;
-
 }
 .discover1{
-	
 	width: 550px;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-
 .discover{
-	
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 500px;
 	margin: 60px 0px 0px 0px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
-}
-
-.steps{
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	justify-content: space-evenly;
-	
 }
 .step1, .step2, .step3{
-
 	margin: 40px 0px 90px 0px; 
 	width: 255px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 }
-h5{
-
-	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-
-.novaytexto{
-
-	position: relative;
-
+.steps{
+	justify-content: center;
+	align-items: center; 
+	justify-content: space-evenly;
+	margin-bottom: 50px;
 }
 .supernova{
-
 	width: 500px;
-	position: absolute;
 	left: -60px;
 	top: -20%;
-
 }
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
 .voyager{
-
 margin-left: 700px;
 width: 30%;
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 30px;
 	margin-left: 60px;
 	letter-spacing: 5px;
 }
-
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 60px;
 	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
-
-
 .espaciotexto{
-
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
 	margin-top: 5px;
-	border-bottom: solid 1px;
 }
 
 .etiquetilla{
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 16px;
-	border: none;
 	margin-top: 30px;
-
 }
-
 .nodesign{
     width: 100%;
     padding: 5px;
     line-height: 1;
-    border: 0;
     height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
     background-position-x: 100px;
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
 
 }
 /* TABLET5 */
 @media screen and (max-width: 1056px){
 
-/*=====================================================
-  NAV
-  =====================================================*/
 .navbar{
 	display: none;
 }
 .sombra{
-
 	height: 130px;
 }
 
 .logotipo{
-
 	width: 100px;
 	margin: 60px 0px 0px 90px;
 }
 
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 60px 60px 0px 0px;
 	height: 60px;
-
 }
-
-
 li{
-
 	margin-left: 50px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
-
-li:hover{
-
-height: 60px;
-}
-
-a{
-	text-decoration: none;
-	color: white;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
 .lunita{
-
 	width: 100%;
 	z-index: 0;
-	position: absolute;
 	top: 120px;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
 }
 
-
-
 .titulo{
-
-	position: absolute;
 	top: 40%;
 	left: 50%; 
 	font-size: 54px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .sleap{
-
-	position: absolute;
 	top: 55%;
 	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 40px;
 	width: 38%;
-	margin: 0px;
-	padding: 0px;
-
 }
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
 .boton{
-
-	position: absolute;
 	top: 67%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
 }
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
-}
-
 .boton2{
-
-	border: solid 1px;
-  	color: white;
   	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
-  	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
 }
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-
 .botonfly{
-
-	border: solid 1px;
 	width: 190px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 3px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 300px 0px 0px;
-
 }
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-}
-
 .cita{
 	width: 60%;
 	font-size: 32px;
 	margin-top: 1260px;
-	color: white;
-	font-family: Michroma;
 	line-height: 60px;
-	text-align: left;
-	padding: 0px;
-
 }
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 24px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
 }
 .tierra{
-
 	width: 300px;
 	margin-top: 200px;
 	margin-right: 100px;
 }
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
 .cajadiscover{
 	width: 100%;
-	display: flex;
-	justify-content: center;
 	margin-bottom: 60px;
-
 }
 .discover1{
-	
 	width: 550px;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-
 .discover{
-	
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 500px;
 	margin: 60px 0px 0px 0px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
-
 .steps{
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
-	
+	margin-bottom: 50px;
 }
 .step1, .step2, .step3{
-
 	margin: 40px 0px 90px 0px; 
 	width: 255px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 }
 h5{
-
 	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-.novaytexto{
-
-	position: relative;
-
 }
 .supernova{
-
 	width: 500px;
-	position: absolute;
 	left: -60px;
 	top: -20%;
-
 }
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
 .voyager{
-
-margin-left: 700px;
+margin-left: 700px !important;
 width: 30%;
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
 .formtitle{
 	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 30px;
 	margin-left: 60px;
 	letter-spacing: 5px;
 }
-
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 60px;
 	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
-
 
 .espaciotexto{
-
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
 	margin-top: 5px;
-	border-bottom: solid 1px;
 }
-
 .etiquetilla{
 	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
 	font-size: 16px;
-	border: none;
 	margin-top: 30px;
-
 }
-
 .nodesign{
     width: 100%;
     padding: 5px;
-    line-height: 1;
     border: 0;
     height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
     background-position-x: 100px;
 }
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
 }
-}
-/* TABLET9 */
-@media screen and (max-width: 1207px){
-
-	.voyager{
-
-	margin-left: 100px;
-	width: 30%;
-}
-.joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
-	top: 100%;
-	left: 62%;
-	font-size: 20px;
-
-}
-
-}
-
-/* TABLET7 */
-@media screen and (max-width: 1024px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
-
-.navbar{
-	display: none;
-}
-.sombra{
-
-	height: 130px;
-
-}
-
-.logotipo{
-
-	width: 100px;
-	margin: 60px 0px 0px 90px;
-}
-
-ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
-	margin: 60px 60px 0px 0px;
-	height: 60px;
-
-}
-
-
-li{
-
-	margin-left: 30px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
-	height: 0px;
-	display: flex;
-	align-items: center;
-}
-
-li:hover{
-
-height: 60px;
-}
-
-a{
-	text-decoration: none;
-	color: white;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  LUNA
-  =====================================================*/
-
-.lunita{
-
-	width: 100%;
-	z-index: 0;
-	position: absolute;
-	top: 120px;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-}
-
-
-
-.titulo{
-
-	position: absolute;
-	top: 40%;
-	left: 50%; 
-	font-size: 44px;
-	transform: translate(-50%, -50%);
-	color: white;
-	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	width: 80%;
-
-}
-.sleap{
-
-	position: absolute;
-	top: 50%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
-	font-size: 30px;
-	width: 50%;
-	margin: 0px;
-	padding: 0px;
-
-}
-/*=====================================================
-
-  =====================================================*/
-
-/*=====================================================
-  BOTONES
-  =====================================================*/
-
-.boton{
-
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 12px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
-  	padding: 15px 30px 15px 30px;
-}
-
-.boton:hover{
-
-	box-shadow: 0px 0px 6px 1px #CBBEB5; 
-
-}
-
-.boton2{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 8px;
-  	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
-  	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	position: relative;
-  	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
-}
-
-.boton2:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-
-.botonfly{
-
-	border: solid 1px;
-	width: 190px;
-  	color: white;
-  	text-align: center;
-  	letter-spacing: 3px;
-  	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
-  	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
-  	margin: 60px 300px 0px 0px;
-
-}
-
-.botonfly:hover{
-	box-shadow: 0px 0px 6px 2px #CBBEB5; 
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FRASE1
-  =====================================================*/
-
-.cita1{
-
-	display: flex;
-	justify-content: center;
-	position: relative;
-	position: relative;
-}
-
-.cita{
-	width: 60%;
-	font-size: 24px;
-	margin-top: 900px;
-	color: white;
-	font-family: Michroma;
-	line-height: 40px;
-	text-align: left;
-	padding: 0px;
-
-}
-.joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
-	top: 100%;
-	left: 62%;
-	font-size: 20px;
-
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	TIERRA
-  =====================================================*/
-
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
-}
-.tierra{
-
-	width: 300px;
-	margin-top: 200px;
-	margin-right: 100px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-
-  /*=====================================================
-	PASOS
-  =====================================================*/
-
-.cajadiscover{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 60px;
-
-}
-.discover1{
-	
-	width: 550px;
-	color: white;
-	text-align: center;
-	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
-	font-size: 40px;
-
-}
-
-.discover{
-	
-	width: 550px;
-	color: white;
-	text-align: left;
-	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
-	font-size: 40px;
-
-}
-.discovertext{
-
-	color: white;
-	width: 500px;
-	margin: 60px 0px 0px 0px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-
-}
-
-.steps{
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	justify-content: space-evenly;
-	
-}
-.step1, .step2, .step3{
-
-	margin: 40px 0px 90px 0px; 
-	width: 255px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-}
-h5{
-
-	font-size: 24px;
-	font-family: Michroma;
-	margin: 0px;
-	padding: 0px;
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	SUPERNOVA Y FLYME
-  =====================================================*/
-
-
-.novaytexto{
-
-	position: relative;
-
-}
-.supernova{
-
-	width: 500px;
-	position: absolute;
-	left: -60px;
-	top: -20%;
-
-}
-
-.flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	VOYAGER
-  =====================================================*/
-
-.voyager{
-
-margin-left: 600px;
-width: 30%;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.formtitle{
-	width: 550px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
-	font-size: 30px;
-	margin-left: 60px;
-	letter-spacing: 5px;
-}
-
-.formulario{
-
-	display: flex;
-	margin: 0px 0px 0px 60px;
-	width: 60%;
-	align-items: flex-start;
-	flex-direction: column;
-
-}
-
-
-.espaciotexto{
-
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
-	font-size: 24px;
-	border-top: none; 
-	border-right: none; 
-	border-left: none;
-	margin-top: 5px;
-	border-bottom: solid 1px;
-}
-
-.etiquetilla{
-	width: 100%;
-	background: transparent;
-	color: white;
-	font-family: poppins;
-	font-size: 16px;
-	border: none;
-	margin-top: 30px;
-
-}
-
-.nodesign{
-    width: 100%;
-    padding: 5px;
-    line-height: 1;
-    border: 0;
-    height: 34px;
-    background: url("../rsc/img/chevron_Mesa de trabajo 1.png") no-repeat right;
-    background-size: contain;
-    -webkit-appearance: none;
-    border-bottom: solid 1px;
-    color: white;
-    background-position-x: 100px;
-}
-
-
-/*=====================================================
-
-  =====================================================*/
-
-  /*=====================================================
-	FORMULARIO
-  =====================================================*/
-.footer{
-	width: 100%;
-
-}
-/* TABLET8 */
 @media screen and (max-width: 926px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
 .navbar{
 	display: none;
 }
 
 .sombra{
-
 	height: 130px;
 }
 
 .logotipo{
-
 	width: 100px;
 	margin: 60px 0px 0px 90px;
 }
 
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
-	margin: 60px 30px 0px 0px;
+	margin: 60px 15px 0px 0px !important;
 	height: 60px;
-
 }
-
 
 li{
-
 	margin-left: 50px;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
-
-li:hover{
-
-height: 60px;
-}
-
 a{
-	text-decoration: none;
-	color: white;
-	font-size: 13px;
+	font-size: 12px;
 }
 .discover{
-	
 	width: 400px;
-	color: white;
 	text-align: left;
 	margin: 300px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
 	z-index: 5;
-
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 300px;
 	margin-bottom: 200px;
 }
 
-
 }
 @media screen and (max-width: 800px){
-
-/*=====================================================
-  NAV
-  =====================================================*/
 
 .navbar{
 	display: none;
 }
 .sombra{
 
-	height: 140px;
-}
-
-.navvv{
-	display: none !important;
+	height: 120px;
 }
 
 .logotipo{
@@ -4654,88 +2086,44 @@ a{
 	margin: 40px 0px 0px 30px;
 }
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 40px 20px 0px 0px;
 	height: 60px;
-
 }
-
 
 li{
-
 	margin-left: 30px;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
-
-
 
 a{
-	text-decoration: none;
-	color: white;
 	font-size: 13px;
-
 }
 .titulo{
-
-	position: absolute;
-	top: 35%;
-	left: 50%; 
-	font-size: 32px;
-	transform: translate(-50%, -50%);
-	color: white;
+	top: 30%;
+	font-size: 32px !important;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .sleap{
-
-	position: absolute;
-	top: 42%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
+	top: 45%;
 	font-size: 24px;
 	width: 60%;
-	margin: 0px;
-	padding: 0px;
-
 }
 .boton{
-
-	position: absolute;
-	top: 50%;
+	top: 57%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
 }
+.steps{
+	justify-content: center;
+	align-items: center; 
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+}
 .step1, .step2, .step3{
-
 	margin: 40px 0px 30px 0px; 
 	width: 145px;
 	font-size: 14px;
@@ -4744,39 +2132,27 @@ a{
 	line-height: 24px;
 }
 .discover{
-	
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 100px 0px 0px 25px;
-	font-family: Michroma;
 	font-size: 40px;
 	z-index: 5;
-
 }
 .discovertext{
-
-	color: white;
 	width: 400px;
 	margin: 30px 100px 0px 0px;
 	font-size: 12px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-	z-index: 10;
 
+}
+.supernova{
+	z-index: -2;
 }
 .voyager{
 
-margin-left: 400px;
+margin-left: 440px !important;
 width: 40%;
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 150px;
 	margin-bottom: 100px;
 }
@@ -4786,98 +2162,55 @@ width: 40%;
 }
 
 @media screen and (max-width: 1280px){
-
 .navvv{
 	display: none;
 }
 }
-
 
 @media screen and (max-width: 768px){
 
 .navbar{
 	display: none !important;
 }
-
 .sombra{
-
 	height: 160px;
 }
-
 .logotipo{
-
 	width: 90px;
 	margin: 40px 0px 0px 40px;
 }
-
 ul{
-	list-style: none;
-	color: white;
-	font-size: bold;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 40px 40px 0px 0px;
 	height: 60px;
 }
-
 li{
 	margin-left: 30px;
 	height: 0px;
 	display: flex;
 	align-items: center;
 }
-
 a{
-	text-decoration: none;
-	color: white;
 	font-size: 13px;
 }
 .discover{
 	width: 550px;
-	color: white;
-	text-align: left;
 	margin: 300px 0px 0px 25px;
-	font-family: Michroma;
 	font-size: 40px;
 	z-index: 5;
 }
 .titulo{
-
-	position: absolute;
 	top: 40%;
-	left: 50%; 
 	font-size: 32px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
 }
-
 .sleap{
-	position: absolute;
 	top: 47%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 24px;
 	width: 60%;
-	margin: 0px;
-	padding: 0px;
 }
-
 .boton{
-	position: absolute;
 	top: 57%;
-	left: 50%;
-	transform: translate(-50%, -50%);
   	letter-spacing: 8px;
   	font-size: 12px;
   	margin: 4px 2px;
@@ -4888,342 +2221,190 @@ a{
 	width: 60%;
 	font-size: 24px;
 	margin-top: 760px;
-	color: white;
-	font-family: Michroma;
 	line-height: 32px;
-	text-align: left;
-	padding: 0px;
-
 }
 .discover1{
-	
 	width: 550px;
-	color: white;
-	text-align: center;
 	margin: 100px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 40px;
-
 }
-.step1, .step2, .step3{
-
-	margin: 40px 0px 90px 0px; 
-	width: 155px;
-	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
-	line-height: 24px;
-}
-
 .steps{
-
-
-	display: flex;
 	justify-content: center;
 	align-items: center; 
 	justify-content: space-evenly;
-	margin-bottom: 0px;
+	margin-bottom: 50px;
+}
+.step1, .step2, .step3{
+	margin: 40px 0px 90px 0px; 
+	width: 155px;
+	font-size: 16px;
+	line-height: 24px;
 }
 .discovertext{
-
-	color: white;
 	width: 400px;
 	margin: 60px 100px 0px 0px;
 	font-size: 12px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 150px;
 	margin-bottom: 100px;
 }
 .voyager{
 
-margin-left: 500px;
+margin-left: 500px !important;
 width: 30%;
 }
 }
 
 /* SMARTPHONE */
 @media screen and (max-width: 360px){
-
 	.navegacion{
 		display: none;
 	}
 
 .navvv{
-
 	position: fixed;
 	width: 100%;
 	opacity: 0.8;
-
 }
-
 .fondocolor{
 opacity: 0.8;
-	
 }
-
 .logonav{
 	width: 80px;
 	margin: 15px 0px 0px 20px;
-
 }
-
 p{
 	margin-top: 30px;
 }
 
 .cajadiscover{
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-bottom: 60px;
 
 }
 .discover{
-	
 	width: 270px !important;
-	color: white;
-	text-align: center;
 	margin: 20px 0px 0px 0px !important;
-	font-family: Michroma;
 	font-size: 20px;
 	z-index: 5;
-
 }
 .titulo{
-
-	position: absolute;
 	top: 60%;
-	left: 50%; 
 	font-size: 22px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 5px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .cita{
 	width: 80%;
 	font-size: 16px;
 	margin-top: 750px;
-	color: white;
-	font-family: Michroma;
 	line-height: 22px;
-	text-align: left;
-	padding: 0px;
-
 }
 .sleap{
-
-	position: absolute;
 	top: 70%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 16px;
 	width: 80%;
-	margin: 0px;
-	padding: 0px;
-
 }
 .lunita{
-
 	width: 100%;
 	z-index: 0;
-	position: absolute;
 	top: 45%;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
 }
 .boton{
-
-	position: absolute;
 	top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
   	font-size: 12px;
   	margin: 4px 2px;
   	padding: 10px 15px 10px 15px !important;
 }
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
-}
 .tierra{
-
 	width: 150px;
 	margin-top: 150px;
 	margin-right: 0px;
 }
 .discover1{
-	
 	width: 70% !important;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 16px;
-
 }
 .steps{
-
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
 	flex-direction: column;
+	align-items: center; 
+	justify-content: space-evenly;
 	margin-bottom: 10px;
 }
 .step1, .step2, .step3{
-
 	margin: 0px 0px 40px 0px; 
 	width: 70%;
 	font-size: 12px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 18px;
 }
-
 h5{
 	font-size: 16px;
 }
-
 .boton2{
 
 	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 10px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
   	opacity: 0.7;
-  	position: relative;
   	left: 50%;
-  	transform: translateX(-50%); 
-  	transition: 0.5s;
-  	z-index: 10;
 }
 .cajadiscover{
 	width: 100%;
-	display: flex;
-	justify-content: center;
 	margin-bottom: 60px;
-
 }
 .discover1{
-	
 	width: 500px;
-	color: white;
-	text-align: center;
 	margin: 200px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 30px;
-
 }
-
 .discover{
-	
 	width: 700px;
-	color: white;
-	text-align: left;
 	margin: 300px 0px 0px 325px;
-	font-family: Michroma;
 	font-size: 24px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 100%;
 	margin: 30px 150px 0px 0px;
 	font-size: 14px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-bottom: 90px;
 }
 .botonfly{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 150px 0px 0px;
-
 }
 .voyager{
-
 margin-left: 60px;
 width: 70%;
 }
-
 .formtitle{
 	width: 100%;
-	color: white;
-	text-align: center;
-	font-family: Michroma;
 	font-size: 20px !important;
 	margin: 10px !important;
 	letter-spacing: 0px;
 }
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 15px;
 	width: 90%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
-
 }
 /* IPHONE678 */
 @media screen and (max-width: 375px){
 
-	.barranav{
+.barranav{
 
-		display: block !important;
-		z-index: 20;
-	}
+	display: block !important;
+	z-index: 20;
+}
 
 .navegacion{
 	display: none !important;
@@ -5234,230 +2415,112 @@ width: 70%;
 
 .titulo{
 
-	position: absolute;
 	top: 50%;
-	left: 50%; 
 	font-size: 20px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .sleap{
-
-	position: absolute;
 	top: 60%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 16px;
 	width: 70%;
-	margin: 0px;
-	padding: 0px;
-
 }
 .boton{
-
-	position: absolute;
 	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
   	z-index: 3;
 }
 .lunita{
-
-	width: 100%;
 	top: 30%;
-	z-index: 0;
-	position: absolute;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
 }
-
 .cita{
 	width: 80%;
 	font-size: 16px;
 	margin-top: 760px;
-	color: white;
-	font-family: Michroma;
 	line-height: 25px;
-	text-align: left;
-	padding: 0px;
-
 }
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 14px;
-
-}
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
 }
 .tierra{
-
 	width: 150px;
 	margin-top: 100px;
 	margin-right: 40px;
 }
 .discover1{
-	
 	width: 500px;
-	color: white;
-	text-align: center;
 	margin: 100px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 20px;
-
 }
 .steps{
-
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
 	flex-direction: column;
-	margin-bottom: 50px;
+	align-items: center; 
+	justify-content: space-evenly;
+	margin-bottom: 10px;
 }
 .step1, .step2, .step3{
-
 	margin: 0px 0px 50px 0px; 
 	width: 265px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
 }
 h5{
 	font-size: 14px;
 }
-p{
-	margin: 0px;
-}
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-bottom: 90px;
 }
 .supernova{
-
 	width: 450px;
-	position: absolute;
 	left: -150px;
 	top: -200px;
 	z-index: -1;
-
 }
 .discover1{
-	
 	width: 500px;
-	color: white;
 	text-align: center;
 	margin: 100px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 30px;
-
 }
 .discover{
-	
 	width: 300px !important;
-	color: white;
-	text-align: left;
 	margin: 100px 0px 0px 0px !important;
-	font-family: Michroma;
 	font-size: 24px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 300px;
 	margin: 60px 0px 0px 20px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 0px;
 	margin-bottom: 100px;
 }
 
 .botonfly{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
-  	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
+   	font-size: 12px;
   	margin: 60px 0px 0px 0px;
-
 }
-
 .formtitle{
 	width: 100%;
-	color: white;
-	text-align: center;
-	font-family: Michroma;
 	font-size: 22px;
 	margin: 0px;
 	letter-spacing: 5px;
 	line-height: 35px;
 }
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 15px;
 	width: 90%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
 .voyager{
-
 margin-left: 20px;
 width: 80%;
 }
@@ -5480,238 +2543,116 @@ width: 80%;
 	z-index: 5;
 }
 .titulo{
-
-	position: absolute;
 	top: 50%;
-	left: 50%; 
 	font-size: 20px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 10px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
-
 .logonav{
-
 	width: 90px;
-
 }
-
 .sleap{
-
-	position: absolute;
 	top: 60%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: Michroma;
-	text-align: center;
 	font-size: 16px;
 	width: 70%;
-	margin: 0px;
-	padding: 0px;
-
 }
 .boton{
-
-	position: absolute;
 	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
-  	text-decoration: none;
-  	display: inline-block;
   	font-size: 12px;
   	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	padding: 15px 30px 15px 30px;
   	z-index: 3;
 }
-
 .lunita{
-
 	width: 100%;
 	top: 30%;
 	z-index: 0;
-	position: absolute;
-	animation-name: aterrizaje;
-	animation-duration: 5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
 }
-
 .cita{
 	width: 80%;
 	font-size: 16px;
 	margin-top: 760px;
-	color: white;
-	font-family: Michroma;
 	line-height: 25px;
-	text-align: left;
-	padding: 0px;
-
 }
 .joseph{
-	color: white;
-	font-family: poppins;
-	position: absolute;
 	top: 100%;
 	left: 62%;
 	font-size: 14px;
-
-}
-.tierraytitulo{
-
-	display: flex;
-	justify-content: flex-end;
-
 }
 .tierra{
-
 	width: 150px;
 	margin-top: 100px;
 	margin-right: 40px;
 }
-
 .steps{
-
-
-	display: flex;
-	justify-content: center;
-	align-items: center; 
 	flex-direction: column;
-	margin-bottom: 50px;
+	align-items: center; 
+	justify-content: space-evenly;
+	margin-bottom: 10px;
 }
 .step1, .step2, .step3{
-
 	margin: 0px 0px 50px 0px; 
 	width: 265px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-}
-.supernova{
-
-	display: none;
 }
 h5{
 	font-size: 14px;
 }
-p{
-	margin: 0px;
-}
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-bottom: 90px;
 }
 .supernova{
-
 	width: 450px;
-	position: absolute;
-	left: -150px;
-	top: -200px;
+	left: 150px;
+	top: 120px !important;
 	z-index: -1;
-
 }
 .discover1{
-	
 	width: 500px;
-	color: white;
-	text-align: center;
 	margin: 100px 0px 0px 0px;
-	font-family: Michroma;
 	font-size: 20px;
-
 }
 .discover{
-	
 	width: 300px !important;
-	color: white;
-	text-align: left;
 	margin: 60px 0px 0px 0px !important;
-	font-family: Michroma;
 	font-size: 24px;
-
 }
 .discovertext{
-
-	color: white;
 	width: 300px;
 	margin: 60px 0px 0px 20px;
 	font-size: 16px;
-	font-family: Poppins; 
-	color: white;
 	line-height: 24px;
-
 }
 .flytothemoon{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	margin-left: 0px;
 	margin-bottom: 100px;
 }
 
 .botonfly{
-
-	border: solid 1px;
-  	color: white;
-  	text-align: center;
   	letter-spacing: 8px;
   	padding: 15px 30px 15px 30px;
-  	text-decoration: none;
   	font-size: 12px;
-  	cursor: pointer;
-  	background-color: black;
-  	opacity: 0.7;
-  	transition: 0.5s;
   	margin: 60px 0px 0px 0px;
-
 }
 .voyager{
-
 margin-left: 20px;
 width: 80%;
 }
 
 .formtitle{
 	width: 80%;
-	color: white;
-	text-align: center;
-	font-family: Michroma;
 	font-size: 22px;
-	margin: 0px;
 	letter-spacing: 5px;
 	line-height: 35px;
 }
 .formulario{
-	display: flex;
 	margin: 0px 0px 0px 15px;
 	width: 90%;
-	align-items: flex-start;
-	flex-direction: column;
 }
 .nodesign{
-   
-    background-position-x: 270px;
+       background-position-x: 270px;
 }
 }
 
@@ -5722,125 +2663,88 @@ width: 80%;
 
 	width: 100%;
 	height: 100px;
-	background: transparent;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	z-index: 5;
-	position: fixed;
 }
 .navbar{
 	display: none;
 }
 .supernova{
-
 	width: 650px;
-	position: absolute;
 	left: -150px;
 	top: -200px;
 	z-index: -5;
 }
 .sombra{
-
 	height: 160px;
 
 }
 ul{
-	list-style: none;
-	color: white;
-	font-family: poppins;
-	display: flex;
-	align-items: center;
-	justify-content: space-between; 
 	margin: 20px 20px 0px 0px;
 	height: 60px;
-
 }
-
 li{
-
 	margin-left: 20px !important;
-	transition: 0.5s;
-	background: url(../rsc/img/orbita.png) no-repeat center center;
-	background-size: contain;
 	height: 0px;
-	display: flex;
-	align-items: center;
 }
-
 .logotipo{
-
 	width: 60px;
 	margin: 20px 0px 0px 20px;
 }
 a{
-	text-decoration: none;
-	color: white;
 	font-size: 12px;
-	
-
 }
 .titulo{
-
-	position: absolute;
 	top: 37%;
-	left: 50%; 
 	font-size: 34px;
-	transform: translate(-50%, -50%);
-	color: white;
 	letter-spacing: 5px;
-	font-family: Michroma;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
 	width: 80%;
-
 }
 .voyager{
-
-margin-left: 190px;
-width: 60%;
+	margin-left: 160px !important;
+	width: 60%;
 }
-
 .formtitle{
 	width: 450px;
-	color: white;
-	text-align: left;
-	font-family: Michroma;
 	font-size: 27px;
 	margin-left: 10px;
 	margin-bottom: 20px;
 	letter-spacing: 3px;
 }
-
 .formulario{
-
-	display: flex;
 	margin: 0px 0px 0px 20px;
 	width: 90%;
-	align-items: flex-start;
-	flex-direction: column;
-
 }
 .nodesign{
 	background-position-x: 430px !important;
 }
+}
+@media screen and (max-width: 360px){ ___
 
+.titulo{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.steps{
 
+	flex direction: column !important;
 }
 
 /* SMARTWATCH */
 @media screen and (max-width: 320px){
 
 .titulo{
-	font-size: 16px;
-	margin-top: 20px;
+	font-size: 16px !important;
+	margin-top: 10px;
 }
 .sleap{
-	font-size: 12px;
+	font-size: 14px !important;
 }
 .voyager{
-	margin-left: 70px;
+	display: none;
+}
+
+.supernova{
+	margin-top: 250px;
 }
 .boton{
 	padding: 10px;
